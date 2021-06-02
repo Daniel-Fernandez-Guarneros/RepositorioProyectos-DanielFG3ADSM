@@ -132,6 +132,16 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container {
+    display: flex;
+    min-width: 235px;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;    
+}
 .main-currency-table, .main-next-table {
     width: 70%;
     min-width: 235px;
